@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         NerdCubed Search Persist
-// @version      1.0
+// @version      1.1
 // @description  Make searches on nerdcubed.co.uk persist across clicks
 // @author       thislooksfun
 // @copyright    2016, thislooksfun (thislooksfun.github.io)
@@ -47,8 +47,8 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
         function searchChanged(searchVal) {
             $('#video-picker .grid a').each(function() {
                 let oldVal = $(this).attr('href');
-                let newVal = oldVal.substr(0, oldVal.lastIndexOf('/') + 1) + '?q=' + encodeURIComponent(searchVal);
-                $(this).attr('href', newVal);
+                let mainLink = oldVal.substr(0, oldVal.lastIndexOf('/') + 1);
+                $(this).attr('href', searchVal == '' ? mainLink : mainLink + '?q=' + encodeURIComponent(searchVal));
             });
         }
         
