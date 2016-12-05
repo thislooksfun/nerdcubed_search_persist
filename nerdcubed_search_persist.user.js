@@ -3,6 +3,7 @@
 // @version      1.0
 // @description  Make searches on nerdcubed.co.uk persist across clicks
 // @author       thislooksfun
+// @copyright    2016, thislooksfun (thislooksfun.github.io)
 // @license      GPL v3; https://github.com/thislooksfun/nerdcubed_search_persist/blob/master/LICENSE
 // @match        http://www.nerdcubed.co.uk/*
 // @grant        none
@@ -11,6 +12,10 @@
 // @supportURL   https://github.com/thislooksfun/nerdcubed_search_persist/issues
 // @downloadURL  https://github.com/thislooksfun/nerdcubed_search_persist/raw/master/nerdcubed_search_persist.user.js
 // ==/UserScript==
+
+// ==OpenUserJS==
+// @author thislooksfun
+// ==/OpenUserJS==
 
 /**
 
