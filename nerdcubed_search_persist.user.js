@@ -6,7 +6,7 @@
 // @match        http://www.nerdcubed.co.uk/*
 // @grant        none
 // @require      http://code.jquery.com/jquery-latest.js
-// @downloadURL  https://github.com/thislooksfun/nerdcubed_search_persist/raw/nerdcubed_search_persist.user.js
+// @downloadURL  https://github.com/thislooksfun/nerdcubed_search_persist/raw/master/nerdcubed_search_persist.user.js
 // ==/UserScript==
 
 (function() {
