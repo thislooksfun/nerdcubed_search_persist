@@ -1,11 +1,12 @@
 // ==UserScript==
 // @name         NerdCubed Search Persist
-// @version      1.1
+// @version      1.1.1
 // @description  Make searches on nerdcubed.co.uk persist across clicks
 // @author       thislooksfun
 // @copyright    2016, thislooksfun (thislooksfun.github.io)
 // @license      GPL v3; https://github.com/thislooksfun/nerdcubed_search_persist/blob/master/LICENSE
 // @match        http://www.nerdcubed.co.uk/*
+// @match        https://www.nerdcubed.co.uk/*
 // @grant        none
 // @require      http://code.jquery.com/jquery-latest.js
 // @homepageURL  https://github.com/thislooksfun/nerdcubed_search_persist
